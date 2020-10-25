@@ -1,0 +1,352 @@
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	overflow-x: hidden;
+	margin: 0;
+	font-size: 1.4rem;
+	font-weight: 400;
+	position: relative;
+	 
+}
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+h1{
+	font-size: 2.5rem;
+	font-weight: 400;
+	color:#FFF;
+}
+
+h2{
+	font-size: 2rem;
+	font-weight: 400;
+	color:#FFF;
+}
+
+a{
+	outline: none;
+}
+
+.menubtn{
+	display: none;
+}
+
+  /*************************************/
+ /**********1 Headaer menu css*********/
+/************************************/
+
+.menu-area {
+	background: #f7fdfe;
+	padding: 1rem 0;
+}
+
+.logo a {
+	font-size: 2rem;
+	text-transform: uppercase;
+	color:#a4a9af;
+	font-family: MuseoSans;
+}
+
+.logo a:hover{
+	color: #45494d;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: end;
+}
+
+
+
+.menu ul li a {
+	padding: 1rem 2.5rem;
+	margin: 1rem;
+	border-radius: 28px;
+	font-size: 2rem;
+	color: #a4a9af;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: MuseoSans;
+}
+
+.menu ul li a:hover{
+	background: #0ebfdd;
+	color:#45494d;
+}
+ 
+.section-padding{
+	padding: 6rem 0;
+}
+  /*************************************/
+ /********** 2 Banner css**************/
+/************************************/
+
+.banner{
+	background: url('../../assets/img/bg.jpg')no-repeat scroll 0 0 /cover;
+}
+
+.banner-content {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40rem;
+	padding-bottom: 6rem;
+}
+
+.banner-content h1,
+.about-content h1 {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	font-family: Avenir-Heavy;
+}
+
+
+.banner-content h1 span{
+	margin-right: 1rem;
+	font-size: 1.5rem;
+}
+
+.banner-content h1 span:last-child{
+	margin-right: 0px;
+	margin-left: 1rem;
+}
+
+.banner-content p,
+.about-content p {
+	font-size: 1.8rem;
+	color: #fff;
+	font-family: Avenir-medium;
+}
+
+
+.banner-content-header i {
+	color: #fff;
+	line-height: 1px;
+	font-size: 2rem;
+	line-height: 37px;
+}
+
+.banner-content-header {
+	display: flex;
+	justify-content: center;
+	column-gap: 1rem;
+}
+
+  /*************************************/
+ /************3About css***************/
+/*************************************/
+
+ 
+
+.about-content {
+	text-align: center;
+	width: 80%;
+	margin: 5rem auto;
+
+}
+
+.about-content h1 {
+	color: #3fc8e1;
+}
+
+.about-content p{
+	color:#abadaf;
+}
+
+
+
+  /*************************************/
+ /*************4 Team css**************/
+/************************************/
+
+.team-section {
+	background: #0ebfdd;
+}
+
+.team-area{
+
+}
+
+.team-header h1 {
+	font-size: 3rem;
+	font-family: Avenir-Heavy;
+	text-align: center;
+	margin-bottom: 8rem;
+}
+
+.team-footer {
+	text-align: center;
+	margin-top: 8rem;
+}
+
+.team-footer a {
+	padding: 1.5rem 3rem;
+	font-size: 2rem;
+	font-size: 2rem;
+	font-family: MuseoSans-900;
+	background: transparent;
+	border: 1px solid aliceblue;
+	border-radius: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.team-footer a:hover{
+	background: #fff;
+	color:#000;
+}
+
+.member-img {
+	width: 20rem;
+	height: auto;
+	margin: 0 auto;
+}
+
+.member-img img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.team-member h1 {
+	font-family: Avenir-Heavy;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.team-member h2 {
+	font-family: Avenir-Heavy;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.team-member.owl-carousel .owl-nav button.owl-next{
+	position: absolute;
+	top:8rem;
+	right:0;
+}
+
+.team-member.owl-carousel .owl-nav button.owl-prev{
+	position: absolute;
+	top: 8rem;
+	left: 0;
+	 
+} 
+
+.team-member.owl-carousel .owl-nav button span{
+	font-size: 5rem;
+	color:#fff;
+
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent !important;
+	color: #FFF;
+	text-decoration: none;
+	outline: none;
+} 
+
+.owl-theme .owl-nav button{
+	outline: none;
+}
+  /*************************************/
+ /*************6 footer css************/
+/*************************************/
+.footer-section{
+	background: #45494d;
+	padding-top: 2rem;
+}
+
+.footer-area {
+	padding-bottom: 2rem;
+	border-bottom: 2px solid #fff;
+}
+.footer-menu ul{}
+
+.footer-menu ul li a {
+	font-size: 1.5rem;
+	font-family: Avenir;
+	color: #fff;
+	margin-right: 1rem;
+	border-top: 1px solid transparent;
+}
+
+.footer-menu ul li a:hover {
+	color: #0ebfdd;
+	border-color: #fff;
+}
+
+.footer-icon{}
+
+.footer-icon ul{}
+
+.footer-icon ul li a {
+	font-size: 1.6rem;
+	border: 2px solid aliceblue;
+	border-radius: 109px;
+	width: 4rem;
+	height: 4rem;
+	text-align: center;
+	line-height: 36px;
+	margin-right: 1rem;
+	color: #fff;
+}
+
+.footer-icon ul li a:hover{
+	background: #0ebfdd;
+}
+
+/*footer entites */
+.footer-entites {
+	padding:1rem 0;
+}
+
+.footer-entites ul li a {
+	margin-left: 2rem;
+	font-size: 1.4rem;
+	color: #fff;
+	font-family: Avenir-Heavy;
+}
+
+.footer-entites ul li a:hover{
+	color: #0ebfdd;
+}
+
+
+.google-map {
+	margin-bottom: -4px;
+}
+
+.scrollbtn {
+	position: fixed;
+	left: 400px;
+	bottom: 0;
+	font-size: 3rem;
+	border: 1px solid aliceblue;
+	text-align: center;
+	background: #3498db;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 35px;
+	display: none;
+	padding: 1rem 2rem;
+	z-index: 12;
+}
+
+.scrollbtn:hover{
+	background: #fff;
+	color:#000;
+}

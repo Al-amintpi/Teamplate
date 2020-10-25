@@ -1,0 +1,90 @@
+@media all and (min-width: 992px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 991px){
+	.menu{
+		display: none;
+	}
+
+	.menu ul {
+		flex-direction: column;
+	}
+
+	.menu {
+		position: absolute;
+		top: 61px;
+		left: 0;
+		background: rgb(0,0,0,.9);
+		width: 100%;
+	}
+
+	.menu ul {
+		text-align: center;
+	}
+
+	.logo{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo a i {
+		width: 4rem;
+		height: 4rem;
+		border: 2px solid darkgray;
+		text-align: center;
+		line-height: 34px;
+		font-size: 2rem;
+		border-radius: 4px;
+	}
+
+	.logo a i:hover{
+		background: #0ebfdd;
+		color: #fff;
+	}
+
+	.menubtn{
+		display: block;
+	}
+}
+
+
+@media all and (max-width: 767px){} 
+
+
+@media all and (max-width: 575px){
+
+	.banner-content {
+		width: 91%;
+		padding-top: 20rem;
+	}
+
+	.about-content {
+		width: 90%;
+		margin: 3rem auto;
+	}
+
+	.section-padding {
+		padding: 3rem 0;
+	}
+
+	.scrollbtn{
+		left: .5rem;
+		padding: 1rem 1rem;
+	}
+
+	.team-footer {
+		margin-top: 3rem;
+	}
+
+	.team-header h1 {
+		margin-bottom: 4rem;
+	}
+}
+
+
+ 
+ 
